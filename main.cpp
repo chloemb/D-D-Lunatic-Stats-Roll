@@ -36,14 +36,14 @@ int main() {
     
     
     //give a prompt to enter how many times Lunatic should be rolled
-    /*
+    
     cout << "Enter number of stat sets to generate (1 to 50 inclusive): ";
     cin >> n;
     if (n < 1 || n > 50) {
         cout << "Invalid input" << endl;
         return 0;
     }
-    */
+    
     
     double trolls = 0, tSTR = 0, tDEX = 0, tCON = 0, tINT = 0, tWIS = 0, tCHA = 0;
     

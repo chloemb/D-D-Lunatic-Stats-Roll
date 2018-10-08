@@ -21,8 +21,12 @@ int main() {
     
     //the lunatic
     
+    //roll stats one time
+    
     int n = 1;
     
+    
+    //give a prompt to enter how many times Lunatic should be rolled
     /*
     cout << "Enter number of stat sets to generate (1 to 50 inclusive): ";
     cin >> n;
@@ -47,7 +51,10 @@ int main() {
             d20 = (rand() % 20) + 1;
             d6 = (rand() % 6) + 1;
             
-            printf("Loop %d: d20 rolled %d, d6 rolled %d\n", xloop, d20, d6);           //loop debugger
+            //print each d20 and d6 set
+            
+             printf("Loop %d: d20 rolled %d, d6 rolled %d\n", xloop, d20, d6);
+            
             
             switch (d6) {
                 case 1:
@@ -84,7 +91,6 @@ int main() {
         
         //print stats and roll number for one set
         
-        
         cout << endl;
         cout << "STR: " << *STR << ", DEX: " << *DEX << ", CON: " << *CON << ", INT: " << *INT << ", WIS: " << *WIS << ", CHA: " << *CHA << endl;
         cout << "Rolled " << xloop - 1 << " times" << endl;
@@ -95,8 +101,7 @@ int main() {
         cout << *STR << "\t" << *DEX << "\t" << *CON << "\t" << *INT << "\t" << *WIS << "\t" << *CHA << "\t" << xloop - 1 << endl;
          */
         
-        //running total calculations
-        
+        //total sum of each respective stat rolled over n stat sets
         /*
         trolls += (xloop - 1);
         tSTR += *STR;
@@ -108,8 +113,7 @@ int main() {
          */
     }
     
-    //avg print
-    
+    //calculate the average and print
     /*
     cout << endl;
     cout << "Average stats: STR: " << tSTR/n << ", DEX: " << tDEX/n << ", CON: " << tCON/n << ", INT: " << tINT/n << ", WIS: " << tWIS/n << ", CHA: " << tCHA/n << endl;

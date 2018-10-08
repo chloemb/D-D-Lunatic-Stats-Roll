@@ -53,8 +53,6 @@ int main() {
     
     list <int> lSTRr, hSTRr, lDEXr, hDEXr, lCONr, hCONr, lINTr, hINTr, lWISr, hWISr, lCHAr, hCHAr, hAVGr, lAVGr;
     
-    int* statsArray = new int[7];
-    
     double *STR = new double, *DEX = new double, *CON = new double, *INT = new double, *WIS = new double, *CHA = new double, *sk = new double;
     
     for (int i = 0; i < n; i++) {
